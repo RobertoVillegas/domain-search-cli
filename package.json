@@ -1,0 +1,19 @@
+{
+  "name": "domain-search-cli",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.4.2",
+  "scripts": {
+    "domains": "bun domains.js",
+    "test": "bun test"
+  },
+  "version": "0.1.0",
+  "description": "Fast, read-only Cloudflare domain availability and pricing CLI powered by Bun.",
+  "license": "MIT",
+  "engines": {
+    "bun": ">=1.4.2"
+  },
+  "bin": {
+    "domains": "./domains.js"
+  }
+}
